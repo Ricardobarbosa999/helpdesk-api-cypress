@@ -1,0 +1,37 @@
+[
+    {
+        "id": 2,
+        "name": "Jane Doe",
+        "email": "jane.doe@example.com"
+    },
+    {
+        "id": 3,
+        "name": "Mario ",
+        "email": "joaogomes@yahoo.com"
+    },
+    {
+        "id": 4,
+        "name": "Maria Betanea",
+        "email": "mariabetaanea@gmail.com"
+    },
+    {
+        "id": 5,
+        "name": "Caetano Veloso",
+        "email": "caetano.veloso@outlook.com"
+    },
+    {
+        "id": 6,
+        "name": "Elis Regina",
+        "email": "elis.regina@gmail.com"
+    },
+    {
+        "id": 7,
+        "name": "João Silva",
+        "email": "email-invalido"
+    },
+    {
+        "id": 7,
+        "name": "Ivete Sangalo",
+        "email": "ivete.sangalo@hotmail.com"
+    }
+]
