@@ -1,4 +1,4 @@
-# 🧪 Projeto de Testes Automatizados com Cypress - API de Usuários
+# 🧪 Projeto de Testes Automatizados com Cypress - API de Usuários e tickets 
 
 
 ## 📂 Instalação
