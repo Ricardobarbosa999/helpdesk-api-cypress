@@ -63,10 +63,26 @@ npx cypress run
 
 ## Surgestões 
 
-Campos em branco não tratados
-Situação: Alguns campos obrigatórios em branco não geram erro.
-Como o teste lida:
-Testes específicos tentam criar ou atualizar registros com campos vazios. 
-Capturamos as respostas da API para análise manual ou futura implementação de validação.
+**Campos em Branco Não Tratados**
+
+**Situação:** Alguns campos obrigatórios, quando enviados em branco, não retornam mensagem de erro ou validação adequada pela API.  
+
+**Abordagem nos Testes:** Foram criados cenários específicos para tentar criar ou atualizar registros com campos vazios.  
+As respostas retornadas pela API são registradas e analisadas, servindo como base para uma futura implementação de validações adequadas.
+
+**Exemplo:**  
+Na API de *users*, ao solicitar um UPDATE com campos em branco, a resposta retornada é *"campos alterados com sucesso"*.  
+Nesse caso, o comportamento esperado seria retornar um **HTTP 400 (Bad Request)**, indicando que os dados enviados são inválidos.
+
+**Autenticação e Autorização**  
+  Implementar JWT para controlar acesso aos endpoints, evitando consultas não autorizadas.
+
+**Teste de Performance**
+
+Por se tratar de uma API de tickets, é altamente recomendável a execução de testes de carga e desempenho.  
+Isso garantirá que, mesmo sob um alto volume de requisições simultâneas, o sistema mantenha estabilidade,  
+resposta rápida e integridade dos dados, evitando falhas ou degradação no serviço.
 
 ---
+
+
