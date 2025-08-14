@@ -8,7 +8,7 @@ Este projeto contém uma suíte de testes automatizados usando **Cypress** para 
 1. Clone este repositório:
 
 ```bash
-git clone 
+git clone https://github.com/Ricardobarbosa999/helpdesk-api-cypress.git
 ```
 
 2. Entre na pasta do projeto:
