@@ -51,13 +51,6 @@ npx cypress open
 npx cypress run
 ```
 
-## Boas Práticas
-
-- Sempre limpar os dados de teste antes de rodar a suíte (evita conflito de e-mail/nome).
-- Validar status codes e estrutura do JSON retornado.
-- Separar cenários **positivos** e **negativos** para melhor organização.
-- Manter mensagens de erro sincronizadas com a API (para evitar falsos negativos).
-
 ---
 
 
