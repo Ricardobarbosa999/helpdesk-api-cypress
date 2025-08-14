@@ -1,7 +1,5 @@
 # 🧪 Projeto de Testes Automatizados com Cypress - API de Usuários
 
-Este projeto contém uma suíte de testes automatizados usando **Cypress** para validar os endpoints de uma API de gerenciamento de usuários (`/users`). Os testes cobrem cenários **positivos** e **negativos** para os métodos **GET, POST, PUT e DELETE**.
-
 
 ## 📂 Instalação
 
