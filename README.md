@@ -14,7 +14,7 @@ git clone https://github.com/Ricardobarbosa999/helpdesk-api-cypress.git
 2. Entre na pasta do projeto:
 
 ```bash
-cd 
+cd helpdesk-api-cypress
 ```
 
 3. Instale as dependências:
