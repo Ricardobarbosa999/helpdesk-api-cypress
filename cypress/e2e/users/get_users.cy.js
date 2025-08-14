@@ -11,7 +11,6 @@ describe('Users API - GET', () => {
 
         expectedUsers.forEach(expectedUser => {
           const user = response.body.find(u => u.id === expectedUser.id);
-          // Garante que o usuário existe antes de validar propriedades
           expect(user, `User with id ${expectedUser.id} should exist`).to.not.be.undefined;
         });
       });
@@ -30,7 +29,7 @@ describe('Users API - GET', () => {
   // Cenário: GET /users/:id positivo
   it('should fetch a user by ID successfully', () => {
     cy.fixture('users.json').then(expectedUsers => {
-      const expectedUser = expectedUsers[0]; // pegando o primeiro usuário da fixture
+      const expectedUser = expectedUsers[0]; 
       cy.getUserById(expectedUser.id).then((response) => {
         expect(response.status).to.eq(200);
         expect(response.body).to.have.property('id', expectedUser.id);
