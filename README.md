@@ -54,8 +54,6 @@ npx cypress run
 
 ## Surgestões 
 
-**Campos em Branco Não Tratados**
-
 **Situação:** Alguns campos obrigatórios, quando enviados em branco, não retornam mensagem de erro ou validação adequada pela API.  
 
 **Abordagem nos Testes:** Foram criados cenários específicos para tentar criar ou atualizar registros com campos vazios.  
