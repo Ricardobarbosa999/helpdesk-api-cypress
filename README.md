@@ -1,7 +1,7 @@
 # 🧪 Testes Automatizados com Cypress - Helpdesk API  
 
 Este repositório contém testes automatizados para validar a **API de Usuários e Tickets** de um sistema de Helpdesk.  
-Os testes foram desenvolvidos com **Cypress** e cobrem cenários de **validação, autenticação, autorização e performance**.  
+Os testes foram desenvolvidos com **Cypress** e cobrem cenários de **validação, autenticação e autorização**.  
 
 👉 **API de Serviço utilizada nos testes:** [Helpdesk API](https://github.com/Ricardobarbosa999/helpdesk-api)  
 
