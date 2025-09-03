@@ -1,13 +1,13 @@
-# 🧪 Testes Automatizados com Cypress - Helpdesk API  
+#  Testes Automatizados com Cypress - Helpdesk API  
 
 Este repositório contém testes automatizados para validar a **API de Usuários e Tickets** de um sistema de Helpdesk.  
 Os testes foram desenvolvidos com **Cypress** e cobrem cenários de **validação, autenticação e autorização**.  
 
-👉 **API de Serviço utilizada nos testes:** [Helpdesk API](https://github.com/Ricardobarbosa999/helpdesk-api)  
+ **API de Serviço utilizada nos testes:** [Helpdesk API](https://github.com/Ricardobarbosa999/helpdesk-api)  
 
 ---
 
-## 📂 Instalação
+## Instalação
 
 1. Clone este repositório:
 
@@ -29,7 +29,7 @@ npm install
 
 ---
 
-## ⚙️ Configuração
+## Configuração
 
 No arquivo `cypress.config.js` ou `cypress.env.json`, configure a URL base da API:  
 
@@ -43,7 +43,7 @@ No arquivo `cypress.config.js` ou `cypress.env.json`, configure a URL base da AP
 
 ---
 
-## ▶️ Executando os Testes
+##  Executando os Testes
 
 ### Modo interativo (abre o Test Runner do Cypress):
 
@@ -73,7 +73,7 @@ helpdesk-api-cypress
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 - [Cypress](https://www.cypress.io/) – Framework de testes E2E e API  
 - [Node.js](https://nodejs.org/) – Ambiente de execução  
 - [npm](https://www.npmjs.com/) – Gerenciador de pacotes  
